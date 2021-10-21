@@ -1,0 +1,18 @@
+<div class="loginb">
+  <div class="loginf">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
+      <div>
+        <label for="username"> Korisničko ime: </label>
+        <input id="username" type="text" formControlName="username" />
+      </div>
+      <div>
+        <label for="address"> Sifra:</label>
+        <input id="address" type="password" formControlName="address" />
+      </div>
+
+      <button class="button" type="submit" style="margin-left:50px">
+        Uloguj se
+      </button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #c0c0c0;
+  text-align: center;
+  padding: 12px;
+}
+tr:hover {
+  background-color: rgb(184, 184, 184);
+  color: rgb(255, 0, 0);
+}
+tr:nth-child(even) {
+  background-color: #dad8d8;
+}
+.profile {
+  height: auto;
+  width: 150px;
+  margin-left: 35px;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
